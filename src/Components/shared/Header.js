@@ -1,0 +1,14 @@
+import React from 'react'
+import { HiOutlineSearch } from 'react-icons/hi'
+
+export default function Header() {
+
+
+    return (
+        <div className="bg-white h-16 px-4 flex items-center border-b border-gray-200 justify-between">
+            <div className="relative text-2xl">
+                Students Management
+            </div>
+        </div>
+    )
+}
